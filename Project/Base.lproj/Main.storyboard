@@ -150,15 +150,19 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="mail" destination="qjG-h8-YOZ" id="OdM-z0-Bmg"/>
+                        <outlet property="password" destination="qjG-h8-YOZ" id="skW-fV-hg2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller2-->
         <scene sceneID="b9W-Xf-ruL">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="Z8g-9g-hTr" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="Z8g-9g-hTr" customClass="ViewController2" customModule="Project" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="odv-rz-HIm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -287,6 +291,10 @@
                         <viewLayoutGuide key="safeArea" id="hvf-2P-r1m"/>
                     </view>
                     <navigationItem key="navigationItem" id="0GN-2Q-zoL"/>
+                    <connections>
+                        <outlet property="currentMail" destination="TbY-wI-UqW" id="k9j-jh-Mzb"/>
+                        <outlet property="currentPassword" destination="vjf-TD-QYY" id="keH-f5-YiP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6bC-Sx-f2F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -1,24 +1,23 @@
 //
-//  ViewController.swift
+//  ViewController2.swift
 //  Project
 //
-//  Created by Ahmed Taha on 3/19/20.
+//  Created by Ahmed Taha on 3/22/20.
 //  Copyright © 2020 Ahmed Taha. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController, UITextFieldDelegate {
+class ViewController2: UIViewController, UITextFieldDelegate {
 
+    @IBOutlet weak var currentPassword: UITextField!
+    @IBOutlet weak var currentMail: UITextField!
     
-    @IBOutlet weak var mail: UITextField!
-    @IBOutlet weak var password: UITextField!
-   
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        mail.delegate = self
-        password.delegate = self
+        currentPassword.delegate = self
+        currentMail.delegate = self
         
     }
     
@@ -27,4 +26,3 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
     
 }
-
